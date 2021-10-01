@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="take3.css">
+    <title>Hire!Me Feedback Form</title>
+</head>
+<body>
+    <div class="he1"><h1>Hire!Me</h1></div>
+    <div class="he2"><h3>Feedback form</h3></body></div>
+    <div class="feedback">
+    <form action="mailto:sn6914@srmist.edu.in?subject=Feedback form response of Hire!Me NOTE: ONLY AFTER YOU SEND THIS MAIL WILL YOUR RESPONSE BE RECORDED"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+<div class="name">
+    Name:<br>
+        <input type="text" size="20" name="Contact-Name"><br><br>
+    </div>
+    <div class="age">
+    Age:<br>
+        <input type="integer" size="10" name="Age"><br><br>
+    </div>
+    <div class="email">
+    Email:<br>
+    <input type="email" name="Contact-Email"><br><br> 
+</div>
+<div class="remarks">
+Any Remarks?<br> 
+    <textarea name="Contact-Message" rows="6″ cols="50″>
+    </textarea><br><br>
+</div>    
+    <div class="submit"><button type="submit" value="Submit">Send</button>
+    </div>
+</form>
+</div>
+<!-- Simple HTML Form that “Triggers” an Email.-->
+
+    
+</body>
+</html>

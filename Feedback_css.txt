@@ -1,0 +1,79 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+html
+{
+    padding: 20px 600px;
+    color:aliceblue;
+    background-color: #4863a0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.he1{
+    padding: 0px 150px;
+    transition-timing-function: ease;
+    transition: 4s;
+    transform: scale(1.4);
+    
+}
+.he1.alert{
+    transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    transition-timing-function: 2s;
+    transform: translateX(0);
+}
+    
+.he2{
+    padding: 0px 0px 0px 155px;
+}
+
+.feedback{
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.534);
+    max-width: 360px;
+    width: 400px;
+    height: 450px;
+    padding: 45px 45px 45px 45px;
+    text-align: center;
+    transform: scale(0.95);
+}
+.feedback:hover,.feedback:active{
+    background-color:rgba(0, 0, 0, 0.37);
+    transform: scale(1);
+    transition: .30s;
+}
+.feedback input{
+    outline: none;
+    background: rgba(128, 128, 128, 0.24);
+    color: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: .30s;
+}
+.feedback input:hover{
+    transform: scale(0.94);
+}
+
+.submit{
+    padding: 0px 50px;
+}
+
+.feedback button{
+    background-color:rgba(255, 255, 255, 0.479);
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 10px;
+    border-color: black;
+}
+.feedback button:hover{
+    background-color:white;
+    color:   #4863a0;
+    border: 10px;
+    border-color: black;
+    transform: scale(1.25);
+    transition: .40s;
+}
